@@ -13,7 +13,7 @@ public class RandomMST {
 		this.Q = new ArrayList<Integer>();
 
 		for (int i = 0; i < noOfVertices; i++) {
-			this.C[i] = (float)2;
+			this.C[i] = Float.MAX_VALUE;
 			this.E[i] = -1;
 			this.Q.add(i + 1);
 		}
